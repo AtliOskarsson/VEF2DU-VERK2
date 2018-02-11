@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bókalisti</title>
+	<meta charset="utf-8">
+	<title></title>
 	<link rel="stylesheet" type="text/css" href="./static/css/styles.css">
 </head>
 <body>
-	 {% for x in booklist %}
     <div>
-      <a href="./book/{{ x.url }}">{{ x.book }}</a>
+      <p>{{ book.about() }}</p>
     </div>
-  {% endfor %}
 </body>
 </html>
